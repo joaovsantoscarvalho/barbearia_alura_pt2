@@ -68,11 +68,10 @@ nav a:houver{
 }
 
 .produtos-descrticao{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+    font-size: 18px;
 }
 
+.produto-preco{}
 footer{
     text-align: center;
     background: url("bg.jpg");
