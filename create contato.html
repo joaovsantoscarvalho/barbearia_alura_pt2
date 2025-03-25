@@ -37,14 +37,24 @@
         </textarea>
         
         <div>
-          <p>
-            como prefere nosso contato</p>
+          <p>como prefere nosso contato?</p>
+            <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+          
+            <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+
+            <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
         </div>
 
         <div>
-          <p>
-            qual horario prefere ser atendido</p>
+          <p>qual horario prefere ser atendido</p>
+            <select>
+              <option>Manhã</option>
+              <option>Tarde</option>
+              <option>Noite</option>
+            </select>
         </div>
+
+        gostaria de receber nossa<label class="checkbox"><input type="checkbox">Goss novidade por email?</label>
 
         <imput type="submit" valeu="enviar formulario">
     </form>
