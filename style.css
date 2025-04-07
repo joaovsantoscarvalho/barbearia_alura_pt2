@@ -16,12 +16,32 @@
 	margin: 0 20px 20px 0;
 }
 
-.imagembeneficios {
+.imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-sizing: 10px 10px 10px 0 #000000;
+}
+
+.imagem-beneficios:hover{
+	opacity: 0.3;
 }
 
 .itens {
-	font-style: italic
+	line-height: 1.5;
+}
+
+.itens {
+	font-weight: bold;
+}
+
+.itens:before {
+	content: 🌟;
+}
+
+.mapa{
+	padding: 3em 0;
+	background: linear-gradient(#fefefe,#88888888);
 }
 
 .beneficios {
