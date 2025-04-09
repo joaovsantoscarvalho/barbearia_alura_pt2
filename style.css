@@ -1,50 +1,48 @@
-@import url(produtos.css);
-
-.banner {
+#banner {
 	width:100%;
 }
 
-.titulo-principal
+.principal{
+	background: #cccccc;
+	padding: 30px;
+}
+
+.titulo-principal{
+	padding-left: 20px;
+}
+
+.titulo-centralizado{
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
 
 #missao {
 	font-size: 20px;
 }
 
-.utensilios {
-	width: 120px;
-	float: left;
-	margin: 0 20px 20px 0;
-}
-
-.imagem-beneficios {
-	width: 60%;
-	opacity: 1;
-	transition: 400ms;
-	box-sizing: 10px 10px 10px 0 #000000;
-}
-
-.imagem-beneficios:hover{
-	opacity: 0.3;
+em strong {
+	color: #ff0000;
 }
 
 .itens {
-	line-height: 1.5;
-}
-
-.itens {
-	font-weight: bold;
-}
-
-.itens:before {
-	content: 🌟;
-}
-
-.mapa{
-	padding: 3em 0;
-	background: linear-gradient(#fefefe,#88888888);
+	font-style: italic;
 }
 
 .beneficios {
 	background: #FFFFFF;
 	padding: 20px;
+}
+
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+imagembeneficios {
+	width: 50%;
 }
