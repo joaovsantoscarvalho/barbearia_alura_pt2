@@ -45,9 +45,9 @@ nav a:houver{
 
 .produtos li{
     display: inline-block;
-    text-aling: center;
+    text-align: center;
     width: 30%;
-    vertical-aling: top;
+    vertical-align: top;
     margin: 0 1.5%;
     box-sizing: border-box;
     border: 2px solid black;
@@ -58,11 +58,11 @@ nav a:houver{
     border-color: red;
 }
 
-.produtos li: :active{
+.produtos li:active{
     border-color: green;
 }
 
-.produtos li: houver h2{
+.produtos li:hover h2{
     font-size: 34px;
 }
 
@@ -82,7 +82,7 @@ nav a:houver{
 }
 
 footer{
-    text-align: center;
+    text-align:center;
     background: url("bg.jpg");
     padding: 40px 0;
 }
