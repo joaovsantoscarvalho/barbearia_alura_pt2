@@ -1,5 +1,5 @@
-body {
-	font-family:'Roboto' sans-serif;
+body{
+    font-family:'Roboto', sans-serif;
 } 
 
 header {
@@ -82,7 +82,7 @@ nav a:houver{
 }
 
 footer{
-    text-align:center;
+    text-align: center;
     background: url("bg.jpg");
     padding: 40px 0;
 }
